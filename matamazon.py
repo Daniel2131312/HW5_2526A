@@ -1,10 +1,7 @@
 # TODO add all imports needed here
 import json
 import sys
-from distutils.sysconfig import customize_compiler
-from itertools import product
 import os
-from sys import stderr
 
 
 class InvalidIdException(Exception):
@@ -332,3 +329,4 @@ if __name__ == "__main__":
     except Exception as e:
         print("The matamazon script has encountered an error")
         exit(0)
+
